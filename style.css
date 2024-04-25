@@ -1,0 +1,69 @@
+body{
+    background-color:rgb(246, 225, 194);
+}
+
+#main-body{
+    background-color: white;
+    display: block;
+    height: 2100px;
+    width: 650px;
+    margin: 100px 100px 100px 400px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 25px;
+    outline-offset: 15px;
+}
+/*outline:  3px solid rgb(218, 136, 14);*/
+#head img{
+    display: inline-block;
+    border-radius: 20px;
+    height: 350px;
+    width: 650px;
+    margin-top: 30px;
+   
+}
+.title{
+    color: rgb(18, 19, 46);
+    font-family: Georgia, serif;
+    font-size: 40px;
+    text-align: left;
+    font-style: italic;
+}
+.about{
+    font-family: cursive;
+    opacity: 0.6;
+    margin-top:10px;
+}
+#preparation{
+    display: inline-block;
+    height: 150px;
+    width:550px;
+    background-color: rgb(244, 156, 69,0.2) ;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px 30px 20px 30px;
+    font-family: cursive;
+    color: rgb(18, 19, 46);
+}
+#ingredients{
+    font-family: cursive;
+    color: rgb(18, 19, 46);
+}
+#recipe{
+    font-family: cursive;
+    color: rgb(18, 19, 46);
+}
+#nutrition{
+    font-family: cursive;
+    color: rgb(18, 19, 46);
+}
+table, td{
+  
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    width: 300px;
+    border-bottom: 2px solid rgb(224, 171, 63,0.3);
+    padding: 10px;
+}
